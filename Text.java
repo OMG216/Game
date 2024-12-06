@@ -1,16 +1,6 @@
 package Game;
 
 public class Text {
-/*
-
-///-\\\ 
-|^   ^|  
-|O   O|  
-|  ~  |  |
- \ O /   |
-  | |    |
-
-  */
 
     public static <T> void print(T a){
         String s = "" + a;
@@ -86,13 +76,5 @@ public class Text {
             y = y +p;
             Text.printf(sub);
         }
-    }
-
-    public static void main(String args[]){
-        String a = "In the heart of the ancient forest, where the trees whispered secrets to those who would listen, there was a small, hidden glade. This glade was unlike any other, bathed in perpetual twilight and filled with the fragrance of blooming flowers. A gentle stream meandered through, its waters sparkling like liquid crystal. In this serene sanctuary, creatures of the forest gathered each evening, drawn by the harmonious sounds that filled the air. It was a place where time seemed to stand still, and the worries of the outside world melted away.";
-        String b = a+a;
-        System.out.println(b);
-        printf(b);
-        facep(b);
     }
 }
